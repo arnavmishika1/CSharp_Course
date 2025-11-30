@@ -43,6 +43,7 @@ namespace CSharp_Course.Delegates.GenericDelegates
 
 
         // Generic delegates with Lambda Expressions
+        /*
         static void Main(string[] args)
         {
             Func<int, float, double, double> obj1 = (x, y, z) =>
@@ -61,5 +62,6 @@ namespace CSharp_Course.Delegates.GenericDelegates
             Console.WriteLine(Status);
             Console.ReadKey();
         }
+        */
     }
 }
