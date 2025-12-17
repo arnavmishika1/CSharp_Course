@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Top Products";
+}
+
+<div class="text-center">
+    @await Component.InvokeAsync("TopProducts", new { count = 3 })
+</div>
